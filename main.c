@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "library.h"
 
 void function()
 {
@@ -8,5 +9,6 @@ int main()
 {
 	printf("Hello,World!\n");
 	function();
+	func();
 	return 0;
 }
